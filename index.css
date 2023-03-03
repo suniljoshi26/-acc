@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 .first-navbar {
@@ -54,4 +55,13 @@ body {
   color: white;
   font-size: 60px;
   font-weight: 700;
+}
+.second-section {
+  background-color: rgb(2, 2, 100);
+  padding: 20px;
+  text-align: center;
+}
+.second-section input {
+  width: 500px;
+  padding: 10px;
 }
