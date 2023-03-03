@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.first-navbar {
+  top: 0;
+  left: 0;
+
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background: rgb(50, 50, 50);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+.first-navbar-container {
+  display: flex;
+  gap: 10px;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.first-navbar-container h3 {
+  color: white;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-ul li {
+  color: #ffffff;
+  cursor: pointer;
+}
